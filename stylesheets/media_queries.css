@@ -24,6 +24,11 @@
     display: none;
   }
 
+  header nav {
+    position: inherit;
+    margin-bottom: 2em;
+  }
+
   header nav li {
     display: none;
   }
