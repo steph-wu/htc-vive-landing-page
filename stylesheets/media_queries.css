@@ -1,5 +1,11 @@
+@media (max-width: 1200px) {
+  .feature {
+    padding-top: 2em;
+  }
+}
+
 @media (max-width: 767px) {
-    .row.valign {
-        display: block; /* Allow stacking */
-    }
+  .row.valign {
+    display: block; /* Allow stacking */
+  }
 }
