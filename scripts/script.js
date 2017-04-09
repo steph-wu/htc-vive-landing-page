@@ -1,6 +1,5 @@
 $(function($) {
-  // Video carousel
-  $('.item.active').find('video')[0].play();
+  // Autoplay videos when sliding
   $('#games-carousel').on('slid.bs.carousel', function (e) {
     $('video').each(function(){
       this.pause();
@@ -15,6 +14,22 @@ $(function($) {
     $('.carousel-control').click(function(){
       video.pause();
     });
+  });
+
+  // Play video when in viewport only
+  $(window).scroll(function(){
+    function elementScrolled(elem){
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+        var elemTop = $(elem).offset().top;
+        return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    if(elementScrolled('#games-carousel')) {
+      console.log('on video');
+      $('.item.active').find('video')[0].play();
+    } else {
+      $('.item.active').find('video')[0].pause();
+    }
   });
 
   // WebVR Modal
