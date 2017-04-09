@@ -2,7 +2,7 @@ $(function($) {
   // Determine header based on screen size
   var header = document.getElementById('header-content');
   if ($(window).width() < 768) {
-    header.innerHTML = '<img src="./images/vive_header.jpg" id="header-img">';
+    header.innerHTML = '<img src="./images/vive_header2.jpg" id="header-img">';
   } else {
     header.innerHTML = '<video loop type="video/mp4" src="./video/vive_video.mp4" style="width: 100%; height: auto; visibility: visible;" autoplay></video>';
   }
