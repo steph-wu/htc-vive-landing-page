@@ -4,8 +4,57 @@
   }
 }
 
+@media (max-width: 979px) {
+  #header-title {
+    font-size: 2em;
+  }
+}
+
 @media (max-width: 767px) {
+  #header-title {
+    font-size: 2em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+  }
+
+  #header-title img {
+    display: none;
+  }
+
+  header nav li {
+    display: none;
+  }
+
+  section {
+    padding: 2em 10%;
+  }
+
+  #video-container {
+    width: 100%;
+    padding: 2em 0 0 0;
+  }
+
+  .slogan {
+    padding: 2em 0;
+  }
+
+  .video-caption h1 {
+    font-size: 1.5em;
+  }
+
+  .button-container {
+    padding-bottom: 0;
+  }
+
   .row.valign {
-    display: block; /* Allow stacking */
+    display: block; /* Allows stacking */
+  }
+
+  #footer-logo {
+    text-align: center;
+    margin-top: 2em;
   }
 }

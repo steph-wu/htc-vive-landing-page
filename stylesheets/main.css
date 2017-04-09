@@ -47,7 +47,7 @@ header nav li {
   padding: 0 1em;
 }
 
-.header-title {
+#header-title {
   position: absolute;
   max-width: 500px;
   font-size: 4em;
@@ -101,7 +101,7 @@ section img {
   background-color: #131313;
 }
 
-.video-container {
+#video-container {
   width: 80%;
   margin: 0 auto;
   padding: 0 0 4em 0;
@@ -179,6 +179,10 @@ footer img {
   float: left;
   padding: 0 1em;
   font-size: 12px;
+}
+
+#footer-logo {
+  text-align: right;
 }
 
 /* FORMS */
