@@ -54,6 +54,11 @@
     font-size: 1.5em;
   }
 
+  .icon-img img {
+    width: 50px;
+    height: 50px;
+  }
+
   .icon-expand {
     margin-top: 1em;
   }
