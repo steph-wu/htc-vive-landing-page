@@ -1,4 +1,12 @@
 $(function($) {
+  // Determine header based on screen size
+  var header = document.getElementById('header-content');
+  if ($(window).width() < 768) {
+    header.innerHTML = '<img src="./images/vive_header.jpg" id="header-img">';
+  } else {
+    header.innerHTML = '<video loop type="video/mp4" src="./video/vive_video.mp4" style="width: 100%; height: auto; visibility: visible;" autoplay></video>';
+  }
+
   // Autoplay videos when sliding
   $('#games-carousel').on('slid.bs.carousel', function (e) {
     $('video').each(function(){
@@ -25,7 +33,6 @@ $(function($) {
         return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
     }
     if(elementScrolled('#games-carousel')) {
-      console.log('on video');
       $('.item.active').find('video')[0].play();
     } else {
       $('.item.active').find('video')[0].pause();
