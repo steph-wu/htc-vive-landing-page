@@ -32,13 +32,22 @@
     padding: 2em 10%;
   }
 
+  .feature-desc {
+    padding: 0 10%;
+    text-align: left;
+  }
+
+  .feature-desc h1 {
+    text-align: center;
+  }
+
   #video-container {
     width: 100%;
     padding: 2em 0 0 0;
   }
 
   .slogan {
-    padding: 2em 0;
+    padding: 2em 1em;
   }
 
   .video-caption h1 {

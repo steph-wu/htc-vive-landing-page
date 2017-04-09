@@ -131,6 +131,7 @@ section img {
 }
 
 .feature-desc {
+  text-align: center;
   padding: 0 3em;
   margin: 0 auto;
 }
