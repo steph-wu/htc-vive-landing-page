@@ -29,11 +29,11 @@
   }
 
   section {
-    padding: 2em 10%;
+    padding: 2em 20px;
   }
 
   .feature-desc {
-    padding: 0 10%;
+    padding: 0 20px;
     text-align: left;
   }
 
@@ -47,11 +47,15 @@
   }
 
   .slogan {
-    padding: 2em 1em;
+    padding: 2em 0.5em;
   }
 
   .video-caption h1 {
     font-size: 1.5em;
+  }
+
+  .icon-expand {
+    margin-top: 1em;
   }
 
   .button-container {
