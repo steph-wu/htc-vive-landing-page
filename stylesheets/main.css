@@ -263,6 +263,11 @@ h2 {
   margin: 0;
 }
 
+.carousel-control.right, .carousel-control.left, .carousel-control:hover {
+  background-image: none;
+}
+
+
 /* MODAL */
 
 iframe {
