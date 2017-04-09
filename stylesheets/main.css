@@ -9,6 +9,10 @@ body {
   background-color: #0f0f0f;
 }
 
+img {
+  max-width: 100%;
+}
+
 a, a:focus, a:visited, a:active, a:hover {
   text-decoration: none;
   color: inherit;
