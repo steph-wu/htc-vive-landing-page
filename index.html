@@ -15,7 +15,10 @@
 
     <header>
       <nav>
-        <a href="https://steamcommunity.com"><img src="./images/steamvr_logo_white.png" id="nav-logo"></a>
+        <a href="https://steamcommunity.com">
+          <img src="./images/steamvr_logo_white.png" id="nav-logo">
+        </a>
+
         <ul class="align-right">
           <li>Steam</li>
           <li>Purchase</li>
@@ -24,6 +27,26 @@
           <li>About</li>
         </ul>
       </nav>
+
+      <!-- MOBILE NAV -->
+      <nav id="nav-mobile">
+        <a href="#nav-dropdown" aria-expanded="false" aria-controls="nav-dropdown" data-toggle="collapse">
+          <img src="./images/steam_logo_white.png" id="nav-logo-mobile">
+          <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </nav>
+
+        <div class="collapse" id="nav-dropdown">
+          <ul>
+            <li>About</li>
+            <li>Games</li>
+            <li>Features</li>
+            <li>Purchase</li>
+            <li>Steam</li>
+          </ul>
+        </div>
+      </nav>
+
       <div id="header-title">
         <img src="./images/viveport_logo_white.png" id="vive-logo">
         Gaming Reimagined

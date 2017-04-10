@@ -75,6 +75,21 @@ header nav li {
   float: left;
 }
 
+#nav-mobile {
+  display: none;
+}
+
+#nav-dropdown {
+  text-align: right;
+  padding: 15px;
+}
+
+#nav-logo-mobile {
+  float: left;
+  width: 40px;
+  height: auto;
+}
+
 #vive-logo {
   width: 150px;
   display: block;
