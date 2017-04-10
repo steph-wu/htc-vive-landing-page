@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 1.4;
   color: #d2d2d2;
   background-color: #0f0f0f;
@@ -132,6 +132,7 @@ section img {
 }
 
 .slogan {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 2em;
   text-align: center;
@@ -185,7 +186,7 @@ section img {
   display: inline-block;
 }
 
-.newsletter {
+#newsletter {
   padding: 1em 0 2em 0;
 }
 
