@@ -8,6 +8,6 @@ https://steph-wu.github.io/htc-vive-landing-page/
 
 - jQuery
 - Twitter Bootstrap
-- A-Frame
+- A-Frame (WebVR demo)
 - Javascript
 - HTML/CSS
