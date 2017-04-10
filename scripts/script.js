@@ -1,8 +1,13 @@
 $(function($) {
-  // Determine header based on screen size
+  // Screen dependent elements
   var header = document.getElementById('header-content');
   if ($(window).width() < 768) {
     header.innerHTML = '<img src="./images/vive_header2.jpg" id="header-img">';
+    // Add video posters only in mobile view
+    $('video[src$="game_theblu.mp4"]').attr('poster', './images/game_theblu.jpg');
+    $('video[src$="game_irrationalexuberance.mp4"]').attr('poster', './images/game_irrationalexuberance.jpg');
+    $('video[src$="game_everest.mp4"]').attr('poster', './images/game_everest.jpg');
+    $('video[src$="game_arizonasunshine.mp4"]').attr('poster', './images/game_arizonasunshine.jpg');
   } else {
     header.innerHTML = '<video loop type="video/mp4" src="./video/vive_video.mp4" style="width: 100%; height: auto; visibility: visible;" autoplay></video>';
   }
