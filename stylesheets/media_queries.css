@@ -10,6 +10,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  #nav-lg {
+    display: inline-block;
+  }
+}
+
 @media (max-width: 767px) {
   #header-title {
     font-size: 2em;

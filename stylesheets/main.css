@@ -71,17 +71,22 @@ header nav li {
   animation: fadein 4s;
 }
 
+#nav-lg {
+  display: none;
+}
+
 #nav-logo {
   float: left;
 }
 
 #nav-mobile {
   display: none;
+  width: 150px;
 }
 
 #nav-dropdown {
   text-align: right;
-  padding: 15px;
+  padding: 20px 15px 0 0;
 }
 
 #nav-logo-mobile {
@@ -218,6 +223,7 @@ input {
 button {
   background-color: transparent;
   border: 0;
+  outline: none;
 }
 
 .button, input[type="button"], input[type="submit"] {

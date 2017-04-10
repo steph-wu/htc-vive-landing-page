@@ -11,20 +11,19 @@
     <link rel="stylesheet" type="text/css" href="./stylesheets/media_queries.css">
   </head>
 
-  <body>
+  <body><a href="#nav-dropdown" aria-expanded="false" aria-controls="nav-dropdown" data-toggle="collapse">
 
     <header>
-      <nav>
+      <nav id="nav-lg">
         <a href="https://steamcommunity.com">
           <img src="./images/steamvr_logo_white.png" id="nav-logo">
         </a>
 
         <ul class="align-right">
-          <li>Steam</li>
-          <li>Purchase</li>
-          <li>Features</li>
-          <li>Games</li>
-          <li>About</li>
+          <li><a href="#">Steam</a></li>
+          <li><a href="#">Purchase</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">About</a></li>
         </ul>
       </nav>
 
@@ -36,16 +35,15 @@
         </a>
       </nav>
 
-        <div class="collapse" id="nav-dropdown">
-          <ul>
-            <li>About</li>
-            <li>Games</li>
-            <li>Features</li>
-            <li>Purchase</li>
-            <li>Steam</li>
-          </ul>
-        </div>
-      </nav>
+      <div class="collapse" id="nav-dropdown" data-toggle="collapse" onClick="event.stopPropagation();">
+        <ul>
+          <li><button type="button" href="#">About</button></li>
+          <li><button type="button" href="#">Games</button></li>
+          <li><button type="button" href="#">Purchase</button></li>
+          <li><button type="button" href="#">Steam</button></li>
+        </ul>
+      </div>
+      <!-- -->
 
       <div id="header-title">
         <img src="./images/viveport_logo_white.png" id="vive-logo">
